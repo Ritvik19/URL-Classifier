@@ -1,3 +1,0 @@
-https://github.com/surajr/URL-Classification/blob/master/URL%20Classification.ipynb
-
-https://www.kdnuggets.com/2016/10/machine-learning-detect-malicious-urls.html
