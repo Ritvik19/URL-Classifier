@@ -117,7 +117,7 @@ def websiteInfo(website):
 
             elems = ressoup.select('.rankmini-rank')
             try:
-                website_details['Alexa Rank'] = [tsli_ar_cleaner(elems[0].getText().strip())]
+                website_details['Alexa Rank'] = [tsli_ar_cleaner(elems[0].getText().strip())**-1]
             except Exception as e:
                 website_details['Alexa Rank'] = [-1]
 
